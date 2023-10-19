@@ -87,6 +87,23 @@ h2{
     color: lightskyblue;
     margin: 0;
 }
+.p-causa{
+    justify-content: center;
+    display: flex;
+}
+
+.h2-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*.main{
     display: flex;
     justify-content: center;
@@ -96,22 +113,11 @@ h2{
 }
 
 
-.h2-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .p-causa{
     justify-content: center;
     display: flex;
-}
-
-
-.ubi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -159,6 +165,8 @@ textarea {
 .form-list input[type="submit"]:hover {
     background-color: #3d7cda;
 }*/
+
+
 
 /*----Footer----*/
 
