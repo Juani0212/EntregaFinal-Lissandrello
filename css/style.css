@@ -99,9 +99,6 @@ h2 {
   height: 350px;
 }
 
-/*.container-ubicacion{
-height: 450%;
-}*/
 .main {
   display: flex;
   justify-content: center;
@@ -109,14 +106,6 @@ height: 450%;
   flex-direction: column;
 }
 
-/*
-
-
-.p-causa{
-    justify-content: center;
-    display: flex;
-}
-*/
 .form-list {
   display: flex;
   justify-content: center;
@@ -178,9 +167,10 @@ footer {
   justify-content: space-between;
 }
 
-.redes li {
+.redes i {
   padding: 10px;
   color: aliceblue;
+  font-size: x-large;
 }
 
 .hr-list {

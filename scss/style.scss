@@ -105,9 +105,6 @@ h2{
 
 }
 
-/*.container-ubicacion{
-height: 450%;
-}*/
 
 
 
@@ -121,14 +118,9 @@ height: 450%;
     
 }
 
-/*
 
 
-.p-causa{
-    justify-content: center;
-    display: flex;
-}
-*/
+
 
 .form-list{
     display: flex;
@@ -197,10 +189,12 @@ footer{
     justify-content: space-between;
 }
 
-.redes li{
+.redes i{
     padding: 10px;
     color: aliceblue;
+    font-size:x-large;
 }
+
 .hr-list{
     color: coral;
     border-color: coral;
