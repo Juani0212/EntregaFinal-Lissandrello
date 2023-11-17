@@ -82,6 +82,16 @@ h2{
     text-align: center;
     margin-top: 10px;
 }
+
+.title-container-contacto{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-container-ubi{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .title-container h1{
     color: coral;
     font-family: 'Comforter', cursive;
@@ -92,17 +102,20 @@ h2{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.p-causa{
+.p-nosotros{
     justify-content: center;
     display: flex;
     padding: 10px;
     align-items: center;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .h2-list{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ubicacion{
@@ -113,12 +126,12 @@ h2{
 }
 
 
+
 .main{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 
@@ -190,7 +203,7 @@ footer{
 .redes i{
     padding: 10px;
     color: aliceblue;
-    font-size:x-large;
+    font-size:xx-large;
 }
 
 .hr-list{
@@ -204,11 +217,14 @@ footer{
 
 /*----tarjeta productos----*/ 
 
-
+.tarjetas{
+    font-family: 'Montserrat', sans-serif;
+}
 .h2-productos{
     justify-content: center;
     align-items: center;
     display: flex;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contenedor-productos{
@@ -222,6 +238,7 @@ footer{
 .contenedor-productos article{
     margin: 50px;
     border: 2px solid black;
+    
 }
 
 
