@@ -100,7 +100,7 @@ h2 {
 .p-nosotros {
   justify-content: center;
   display: flex;
-  padding: 10px;
+  padding: 0 300px;
   align-items: center;
   font-size: large;
   font-family: "Montserrat", sans-serif;
@@ -166,6 +166,17 @@ textarea {
   background-color: #3d7cda;
 }
 
+.carousel-inner {
+  height: 600px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  width: 850px;
+}
+
 /*----Footer----*/
 footer {
   margin-top: auto;
@@ -226,6 +237,17 @@ footer {
 @media (max-width: 640px) {
   .ubicacion {
     align-items: center;
+    width: 350px;
+    height: 350px;
+  }
+  .p-nosotros {
+    padding: 0 10px;
+  }
+  .active img {
+    width: 350px;
+    height: 350px;
+  }
+  .carousel-inner {
     width: 350px;
     height: 350px;
   }
